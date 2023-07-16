@@ -1,0 +1,9 @@
+services:
+  docker-green:
+    image: "trinodb/trino"
+    ports:
+      - "8081:8080"
+  docker-blue:
+    image: "trinodb/trino"
+    ports:
+      - "8082:8080"
